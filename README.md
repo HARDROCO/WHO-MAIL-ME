@@ -36,7 +36,7 @@ feel free to contribute if you wish
    Once `mbox-viewer` was installed, read the user guide and do what you have to do with all your emails, the important thing to use `WMMP` is that the emails that you are going    to export to txt have a date and where they are from. to avoid errors with text scraping once you have selected the mails to export convert to txt according to the user          guide    and that's it, the program will give you a .txt file with the correct structure to use `WMMP`
  
  
-### **2. Gathering cript ´WMM_gather.py´**
+### **2. Gathering script ´WMM_gather.py´**
 Once you have the mbox.txt file ready you can start with the processing scripts, the first one to use will be `WMM_gather.py`
    
 ##### **2.1 Requirements:**
