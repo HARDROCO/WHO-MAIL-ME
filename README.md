@@ -1,7 +1,8 @@
 #   (WMM) WHO MAIL ME PROJECT
 
-The project use a simple group of Python scripts, make text scraping of a MBOX file from a Gmail account to analyse data,
-to produce visualizations and reports if you need add to your projects of Data Sciene.
+The project uses a simple group of Python scripts, creates a text scrape from an MBOX file
+from a Gmail account to analyze data, to produce visualizations and reports if you need them
+to add to your data science projects.
 
 ## How does it work?
 The program follows a structure to produce the correct results
