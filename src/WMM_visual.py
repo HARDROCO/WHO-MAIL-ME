@@ -25,9 +25,9 @@ print('loading lybraries --> OK')
 
 # SQL CONNECTION
 conn = sql.connect(
-    host="Localhost",
-    user="HARDROCO",
-    password="ASTHAROT20",
+    host="your host",
+    user="your user",
+    password="your pass",
     database="mail_mbox"
 )
 cur = conn.cursor()  # buffered = True  # emergency case to bypass error in cursor, but it s better to limit 1 fetchone command
