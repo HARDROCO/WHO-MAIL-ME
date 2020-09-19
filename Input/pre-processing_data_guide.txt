@@ -1,0 +1,27 @@
+# User guide to create a use the mboxfile
+
+### **1. Pre-procesing data ('mbox file'):**
+	The gathering file only works with .txt files with a defined structure as detailed below,
+	you can see and example of it in the "Input" folder:
+ 
+#### **1.1. mbox file :** 
+   Download the .mbox file through your gmail account following the instructions in the link: 
+      
+   + Download mbox file : https://takeout.google.com
+      
+   Google will download the data of your mail from the beginning of time in a file type "filename.mbox".
+   The file can weigh several GB so it is necessary to convert it to plain text and thus avoid the 
+   unnecessary use of memory when processing the data, leaving a file of just MB    easily manipulated
+
+#### **1.2. From a .mbox to.txt file :**
+   to convert the file, use the ´´mbox-viewer´´ program, a powerful tool that is extremely fast and easy to use.
+   you can download it from its repository and thank the author.
+      
+  + Githhub : https://github.com/eneam/mboxviewer  
+  + Direct download: https://sourceforge.net/projects/mbox-viewer/
+
+   Once `mbox-viewer` was installed, read the user guide and do what you have to do with all your emails,
+   the important thing to use `WMMP` is that the emails that you are going to export to txt have a date 
+   and where they are from. to avoid errors with text scraping once you have selected the mails to export
+   convert to txt according to the user guide and that's it, the program will give you a .txt file with
+   the correct structure to use `WMMP`
