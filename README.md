@@ -15,7 +15,7 @@ feel free to contribute if you wish
 
 ## User guide 
 
-### **1. Pre-procesing data ('mbox file'):**
+### **1. Pre-procesing data `mbox file`:**
   The gathering file only works with .txt files with a defined structure as detailed below, you can see and example of it in the "Input" folder:
  
 #### **1.1. mbox file :** 
@@ -26,7 +26,7 @@ feel free to contribute if you wish
    Google will download the data of your mail from the beginning of time in a file type "filename.mbox".
    The file can weigh several GB so it is necessary to convert it to plain text and thus avoid the unnecessary use of memory when processing the data, leaving a file of just MB    easily manipulated
 
-#### **1.2. From a .mbox to.txt file :**
+#### **1.2. From a .mbox to .txt file :**
    to convert the file, use the ´´mbox-viewer´´ program, a powerful tool that is extremely fast and easy to use.
    you can download it from its repository and thank the author.
       
@@ -36,7 +36,7 @@ feel free to contribute if you wish
    Once `mbox-viewer` was installed, read the user guide and do what you have to do with all your emails, the important thing to use `WMMP` is that the emails that you are going    to export to txt have a date and where they are from. to avoid errors with text scraping once you have selected the mails to export convert to txt according to the user          guide    and that's it, the program will give you a .txt file with the correct structure to use `WMMP`
  
  
-### **2. Gathering script ´WMM_gather.py´**
+### **2. Gathering script `WMM_gather.py`**
 Once you have the mbox.txt file ready you can start with the processing scripts, the first one to use will be `WMM_gather.py`
    
 ##### **2.1 Requirements:**
@@ -44,7 +44,7 @@ Once you have the mbox.txt file ready you can start with the processing scripts,
    + MySQL software:
      This script works by creating a MySQL database (soon more SQL databases like sqlite) so it is necessary to install this software.
              
-     + Community version download  do https://dev.mysql.com/downloads/mysql/
+     + Community version download: https://dev.mysql.com/downloads/mysql/
          
    + MySQL library for python : 
      This library can be installed directly with MySQL package, otherwise use pip method
